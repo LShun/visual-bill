@@ -1,6 +1,6 @@
 # VisualBill
 
-An invoice management system built on VB.NET, and Microsoft SQL Server Express.
+An invoice management system with Full CRUD support, basic error checking, in a clean GUI package.
 
 ## Features
 
