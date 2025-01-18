@@ -2,6 +2,18 @@
 
 An invoice management system with Full CRUD support, basic error checking, in a clean GUI package.
 
+## Technologies Used
+
+- Programming Langauge: VB.NET
+- Microsoft SQL Server Express, chosen due to built-in compatibility with VB.NET and ease of setup.
+- WinForms, chosen due to native access to Windows User Interface Common Controls which made it easy to develop desktop applications.
+
+## Architecture & pattern
+
+This application uses an event-driven architecture. Most of the time, the GUI application will be waiting for the user to do something (i.e. clicking on a button) before deciding on what to do. 
+
+The application use the page-controller pattern, as each page has code behind class as controller, and the code behind file depends on view. This pattern is used to separate the request handling logic from the view rendering logic. Furthermore, because the application is simple in nature, page-controller pattern is quicker to implement compared to MVC which introduces additional overhead. 
+
 ## Features
 
 ### Invoice CRUD
